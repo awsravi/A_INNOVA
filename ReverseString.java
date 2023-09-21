@@ -22,6 +22,12 @@ public class ReverseString {
 				.reverse()).collect(Collectors.joining(" "));
 		System.out.println(output);
 		
-		
+		// normal way
+		String value = "home";
+		for (int i = value.length() - 1; i >= 0; i--) {
+		System.out.print(value.charAt(i));
+
+			
+
 	}
 }
